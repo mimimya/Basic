@@ -1,0 +1,6 @@
+A,B = map(int, input().split())
+print(A+B)
+print(A-B)
+print(A*B)
+print(int(A/B)) #문제 조건 몫 (자연수)
+print(A%B)

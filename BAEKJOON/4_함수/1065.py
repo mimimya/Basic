@@ -11,6 +11,8 @@ for i in range(1,N+1):
     if digit[1] - digit[0] == digit[2] - digit[1]:
       count_of_seq += 1
   else: # len is 1 or 2
+    #len 1 : Vacuous truth
+    #len 2 : common difference of AP is ±n (n: 1 digit number)
     count_of_seq +=1
 
 print(count_of_seq)
